@@ -1,0 +1,27 @@
+<?php
+return [
+    'Abu Dhabi' => [
+        'Ghayathi',
+        'Bad Al Matawa',
+        'Al Nadra',
+        'Al Hmara',
+        'BARAKA',
+        'AL SILA',
+        'Madinat Zayed',
+        'Habshan',
+        'Bainuona',
+        'LIWA',
+        'ASAB',
+        'HAMEEM',
+        'Ruwais',
+        'Mirfa',
+        'Abu Al Bayad',
+        'AL Hamra',
+        'Jabel Al Dhani',
+    ],
+    'Dubai' => ['Hatta', 'Nazwa'],
+    'Sharjah' => ['Lehbab', 'Madam'],
+    'Ajman' => ['Masfout'],
+    'Ras Al Khaimah' => ['Wadi Al Shiji', 'Al showka'],
+    'Al Ain' => ['Nahil', 'Sawehan', 'Al Dahra', 'Al Qua', 'Al Wagan'],
+];

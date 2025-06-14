@@ -2,6 +2,7 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\API\RemoteAreaController;
 use App\Http\Controllers\API\ShippingCalculatorController;
 
 /*
@@ -18,4 +19,5 @@ use App\Http\Controllers\API\ShippingCalculatorController;
 
 Route::namespace('API')->group(function () {
     Route::post('/shipping/calculate', [ShippingCalculatorController::class, 'calculate']);
+    Route::get('/remote-areas', [RemoteAreaController::class, 'index']);
 });
